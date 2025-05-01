@@ -1,0 +1,33 @@
+.whiteboard-container {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+  }
+  
+  .whiteboard-container canvas {
+    border: 2px solid #1a73e8;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: crosshair;
+  }
+  
+  .whiteboard-controls {
+    margin-top: 1rem;
+  }
+  
+  .whiteboard-controls button {
+    padding: 0.5rem 1.2rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .whiteboard-controls button:hover {
+    background-color: #d32f2f;
+  }
+  
